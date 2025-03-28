@@ -1,4 +1,4 @@
-package com.viiku.ratelimiter.user.entity;
+package com.viiku.ratelimiter.user.model;
 
 import com.viiku.ratelimiter.common.model.entity.BaseEntity;
 import jakarta.persistence.*;
@@ -13,12 +13,12 @@ import lombok.experimental.SuperBuilder;
 
 @Getter
 @Setter
-@EqualsAndHashCode(callSuper = true)
+@Entity
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "USERS")
-@Entity
+@EqualsAndHashCode(callSuper = true)
 public class UserEntity extends BaseEntity {
 
     @Id

@@ -1,6 +1,6 @@
 package com.viiku.ratelimiter.user.repository;
 
-import com.viiku.ratelimiter.user.entity.UserEntity;
+import com.viiku.ratelimiter.user.model.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
